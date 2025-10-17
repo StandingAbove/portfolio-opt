@@ -20,6 +20,7 @@ from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 sp500 = yf.download('^GSPC', start='2007-01-01', end='2022-11-04')
 sp500_prices = sp500['Close']
 
+
 # Bitcoin data
 btc = yf.download('BTC-USD', start='2017-01-01', end='2022-11-04')
 btc_prices = btc['Close']
